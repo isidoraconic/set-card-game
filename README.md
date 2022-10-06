@@ -1,71 +1,13 @@
-# Getting Started with Create React App
+# SET Card Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Find link to game [here](https://warm-crag-30374.herokuapp.com/). Please allow a few seconds for loading.
 
-## Available Scripts
+## Project Description
+The aim of this project was to create a single player card game called SET, with three different playing modes based on difficulty (easy, meadium, and hard). An overview of SET can be seen [here](https://en.wikipedia.org/wiki/Set_(card_game), but specific rules for this project will be discussed below. Further, rules for how to play the game are included in the application itself (see link above).
 
-In the project directory, you can run:
+### Difficulty Modes
+**Easy Mode:** An easy game only uses 3 of the 4 features of each card (so you might have colour, shape, and number all be variable, but all other cards are solid). Because of this, there are only 27 cards total (combination of 3 sets of 3 different attributes).
 
-### `npm start`
+**Medium Mode:** In a medium game, the game will use the normal 81 cards (combination of 4 sets of 3 different attributes) and will automatically draw more cards if there is not an available set for the user to pick. In other words, if there does not exist a set within the 12 cards drawn, then 3 more cards are automatically drawn by the game (and so on until a set is possible).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# web-dev-set
+**Hard Mode:** A hard game uses the normal 81 cards and will **not** automatically draw cards for the player.
